@@ -86,8 +86,6 @@ ul li a {
 .teams-title {
   font-size: 2rem;
 }
-.bg-white {
-}
 /* Feature part styles */
 .features-container {
   display: flex;
@@ -158,27 +156,68 @@ ul li a {
 /*---------------------
  Box Styles 
  ---------------*/
- .boxes{
-    display: flex;
-    justify-content: space-evenly;
- }
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
 .box {
   padding: 35px;
   border: 1px solid #ff900e;
   border-radius: 8px;
   text-align: center;
+}
+.box h2 {
+  color: #424242;
+  font-size: 2rem;
+  margin: 5px 0;
+}
+.box p {
+  color: #727272;
+  font-size: 1.2rem;
+}
+
+/* ----------------
+    Sponsor part styles
+    --------------------- */
+.sponsor {
+  text-align: center;
+}
+.sponsor h2 {
+  color: #131313;
+  font-size: 2rem;
+}
+.sponsor p {
+  color: #727272;
+  font-size: 1rem;
+  padding: 20px 300px;
+}
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.logo-container > img {
+  height: 50px;
+  width: 140px;
+}
+/* -------------------
+    Footer styles
+------------------- */
+.footer {
+  background-color: #fff4e7;
+  border-radius: 8px;
+  height: 60px;
+  margin: 30px 150px;
   
 }
-.box h2{
-    color: #424242;
-    font-size: 2rem;
-    margin: 5px 0;
-
-}
-.box p{
-    color: #727272;
-    font-size: 1.2rem;
-
+.footer p {
+  color: #424242;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 15px;
+  
 }
 
 /* ---------------------
@@ -225,15 +264,27 @@ ul li a {
   }
   .features-container img {
     width: 100%;
-    padding-left:0px;
-}
-  .some-facts{
+    padding-left: 0px;
+  }
+  .some-facts {
     text-align: center;
   }
-  .boxes{
+  .boxes {
     flex-direction: column;
   }
-  .box{
+  .box {
     margin: 10px 90px;
+  }
+  .sponsor p {
+    padding: 10px;
+  }
+  .logo-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer{
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 30px;
   }
 }
