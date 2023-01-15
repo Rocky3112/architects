@@ -245,7 +245,7 @@ ul li a {
 .footer {
   background-color: #fff4e7;
   border-radius: 8px;
-  height: 60px;
+  
   margin: 100px 150px;
   
 }
@@ -304,6 +304,10 @@ ul li a {
     width: 100%;
     padding-left: 0px;
   }
+  .btn-feature{
+    margin-top: 100px;
+    
+  }
   .some-facts {
     text-align: center;
   }
@@ -340,11 +344,11 @@ ul li a {
   
 }
   .footer{
-    padding: 10px;
+    padding: 30px;
     margin: 0;
     margin-bottom: 30px;
   }
   .footer p{
-    padding: 0;
+    padding: 10px;
   }
 }
